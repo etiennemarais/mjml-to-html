@@ -19,7 +19,7 @@ fastify.post('/', function (request, reply) {
 });
 
 fastify.get('/', function (request, reply) {
-    reply.send({ 
+    reply.send({
         hello: 'Why not sign up at https://bursts.io?',
         why: 'It\'s a convenient way to send better team emails with simple tools to share your project progress.',
         here: 'This is a tool to convert mjml input to it\'s html output',
@@ -28,7 +28,7 @@ fastify.get('/', function (request, reply) {
 });
 
 // Run the server!
-fastify.listen(3000, '127.0.0.1', function (err) {
+fastify.listen(8080, '127.0.0.1', function (err) {
     if (err) throw err;
     console.log(`server listening on ${fastify.server.address().port}`)
 });
