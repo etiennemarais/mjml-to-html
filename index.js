@@ -1,4 +1,5 @@
 const fastify = require('fastify')();
+var cors = require('cors')
 const mjml = require('mjml');
 
 fastify.post('/', function (request, reply) {
@@ -26,6 +27,9 @@ fastify.get('/', function (request, reply) {
         greetings: 'Was FANTASTIC seeing you <3'
     });
 });
+
+// Middleware
+fastify.use(require('cors')())
 
 // Run the server!
 fastify.listen(8080, '127.0.0.1', function (err) {
