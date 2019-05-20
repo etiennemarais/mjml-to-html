@@ -32,7 +32,7 @@ fastify.get('/', function (request, reply) {
 fastify.use(require('cors')())
 
 // Run the server!
-fastify.listen(8080, '127.0.0.1', function (err) {
+fastify.listen(9001, '127.0.0.1', function (err) {
     if (err) throw err;
     console.log(`server listening on ${fastify.server.address().port}`)
 });

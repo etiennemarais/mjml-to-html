@@ -1,4 +1,5 @@
-# mjml.bursts.io
+# mjml-to-html
+
 A light MJML api service to convert mjml on the server to html output.
 
 ## Installation
@@ -7,12 +8,12 @@ A light MJML api service to convert mjml on the server to html output.
     * `yarn install`
 * Run the server
     * `yarn start`
-* Configure a reverse proxy to 127.0.0.1:8080
+* Configure a reverse proxy to 127.0.0.1:9001
 
 ## How to use the server?
 
 ```bash
-curl -X POST "http://127.0.0.1:8080" --header "Content-Type: application/json" -d '{"mjml":"<mjml><mj-body><mj-container><mj-section><mj-column><mj-text>Hello World</mj-text></mj-column></mj-section></mj-container></mj-body></mjml>"}'
+curl -X POST "http://127.0.0.1:9001" --header "Content-Type: application/json" -d '{"mjml":"<mjml><mj-body><mj-container><mj-section><mj-column><mj-text>Hello World</mj-text></mj-column></mj-section></mj-container></mj-body></mjml>"}'
 ```
 
 ```json
