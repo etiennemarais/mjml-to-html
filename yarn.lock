@@ -497,8 +497,8 @@ extsprintf@^1.2.0:
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
 
 fast-decode-uri-component@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/fast-decode-uri-component/-/fast-decode-uri-component-1.0.0.tgz#7ce10336aa4b26286fee93d71e6785ff0f596a33"
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/fast-decode-uri-component/-/fast-decode-uri-component-1.0.1.tgz#46f8b6c22b30ff7a81357d4f59abfae938202543"
 
 fast-deep-equal@^1.0.0:
   version "1.1.0"
@@ -568,8 +568,8 @@ fill-range@^2.1.0:
     repeat-string "^1.5.2"
 
 find-my-way@^2.2.2:
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/find-my-way/-/find-my-way-2.2.4.tgz#cbda5ade45fe221529ca064f76c3086fdf09e8c4"
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/find-my-way/-/find-my-way-2.2.5.tgz#86ce825266fa28cd962e538a45ec2aaa84c3d514"
   dependencies:
     fast-decode-uri-component "^1.0.0"
     safe-regex2 "^2.0.0"
